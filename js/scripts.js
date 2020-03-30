@@ -6,9 +6,12 @@ $(document).ready(function () {
     var paragraphArrays = wholeParagraph.split(' ');
     var seenWords = [];
 
+
     paragraphArrays.forEach(function (paragraphArray) {
       if (seenWords.includes(paragraphArray) === false) {
         seenWords.push(paragraphArray);
+      } else {
+        //seenWords.
       }
 
 
