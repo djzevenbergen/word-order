@@ -19,18 +19,11 @@ $(document).ready(function () {
 
         if (seenWord === paragraphArrays[i]) {
           count += 1;
-
         };
-
       };
-
       counts.push(seenWord, ": ", + count)
-
-
     });
     alert(counts);
-
-
   });
 
 
